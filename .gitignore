@@ -1,0 +1,23 @@
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+
+# Generated / runtime
+data/processed/
+.fuseki/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Environment
+.env
+.env.*
+
+# Generated data
+data/raw/*.csv
+data/processed/
