@@ -21,3 +21,6 @@ __pycache__/
 # Generated data
 data/raw/*.csv
 data/processed/
+
+# docs i dont want to push
+docs/standards-strategy.md
