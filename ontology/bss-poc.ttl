@@ -11,6 +11,7 @@
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix iadopt: <https://w3id.org/iadopt/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 
 <https://fair.scribis.fr/ontology/bss>
     a owl:Ontology ;
@@ -96,7 +97,7 @@ bsspoc:GroundwaterDepthObservation
     a owl:Class ;
     rdfs:subClassOf sosa:Observation ;
     rdfs:label "observation de profondeur d'eau"@fr ;
-    rdfs:label "groundwater depth observation"@ena .
+    rdfs:label "groundwater depth observation"@en .
 
 # SUBJECT / OBJECT eau souterraine / groundwater
 bsspoc:Groundwater
@@ -206,3 +207,82 @@ bsspoc:hasExecutionTechnique
     rdfs:range skos:Concept ;
     rdfs:label "technique d'exécution"@fr ;
     rdfs:label "execution technique"@en .
+
+# SUBJECT / OBJECT feuille de carte géologique / geological map sheet
+bsspoc:GeologicalMapSheet
+    a owl:Class ;
+    rdfs:label "feuille de carte géologique"@fr ;
+    rdfs:label "geological map sheet"@en .
+
+# PREDICAT feuille de carte géologique associée / associated geological map sheet
+bsspoc:associatedGeologicalMapSheet
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range bsspoc:GeologicalMapSheet ;
+    rdfs:label "feuille de carte géologique associée"@fr ;
+    rdfs:label "associated geological map sheet"@en .
+
+# SUBJECT / OBJECT notice BSS / BSS record
+bsspoc:BSSRecord
+    a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:label "notice BSS"@fr ;
+    rdfs:label "BSS record"@en .
+
+# PREDICAT décrit l'ouvrage / describes work
+bsspoc:describesWork
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:BSSRecord ;
+    rdfs:range bsspoc:UndergroundWork ;
+    rdfs:label "décrit l'ouvrage"@fr ;
+    rdfs:label "describes work"@en .
+
+# PREDICAT date de saisie de la notice / record entry date
+bsspoc:recordEntryDate
+    a owl:DatatypeProperty ;
+    rdfs:domain bsspoc:BSSRecord ;
+    rdfs:range xsd:date ;
+    rdfs:label "date de saisie de la notice"@fr ;
+    rdfs:label "record entry date"@en .
+
+# PREDICAT organisme associé à la notice / record-associated organisation
+bsspoc:recordOrganisation
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:BSSRecord ;
+    rdfs:range skos:Concept ;
+    rdfs:label "organisme associé à la notice"@fr ;
+    rdfs:label "record-associated organisation"@en ;
+    rdfs:comment
+        "Organisation value derived from lex_organisme."@en .
+
+# PREDICAT type d'observation de profondeur d'eau / water depth observation type
+bsspoc:waterDepthObservationType
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:GroundwaterDepthObservation ;
+    rdfs:range skos:Concept ;
+    rdfs:label "type d'observation de profondeur d'eau"@fr ;
+    rdfs:label "water depth observation type"@en .
+
+# PREDICAT est un point d'eau / is groundwater point
+bsspoc:isGroundwaterPoint
+    a owl:DatatypeProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "est un point d'eau"@fr ;
+    rdfs:label "is groundwater point"@en .
+
+# PREDICAT dispose d'une coupe géologique / has geological section
+bsspoc:hasGeologicalSection
+    a owl:DatatypeProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "dispose d'une coupe géologique"@fr ;
+    rdfs:label "has geological section"@en .
+
+# PREDICAT dispose d'un log géologique vérifié / has verified geological log
+bsspoc:hasVerifiedGeologicalLog
+    a owl:DatatypeProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "dispose d'un log géologique vérifié"@fr ;
+    rdfs:label "has verified geological log"@en .
