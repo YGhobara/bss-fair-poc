@@ -1,0 +1,19 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?ouvrage ?identifier ?reconnaissanceCode
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        dcterms:identifier ?identifier ;
+        bsspoc:hasResearchTarget
+            <https://fair.scribis.fr/vocab/research/eau> .
+
+    OPTIONAL {
+        ?ouvrage bsspoc:hasReconnaissanceObjective ?reconnaissance .
+        ?reconnaissance skos:notation ?reconnaissanceCode .
+    }
+}
+ORDER BY ?identifier
+LIMIT 100

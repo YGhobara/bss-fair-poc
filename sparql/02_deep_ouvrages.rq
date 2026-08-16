@@ -1,0 +1,20 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+
+SELECT ?ouvrage ?identifier ?depth
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        dcterms:identifier ?identifier ;
+        bsspoc:investigationDepth ?quantity .
+
+    ?quantity
+        qudt:value ?depth ;
+        qudt:hasUnit unit:M .
+
+    FILTER(?depth > 100)
+}
+ORDER BY DESC(?depth)
+LIMIT 100

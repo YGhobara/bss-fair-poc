@@ -1,0 +1,18 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?ouvrage ?identifier ?functionCode
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        dcterms:identifier ?identifier ;
+        bsspoc:hasFunction ?function .
+
+    ?function
+        skos:broader*
+            <https://fair.scribis.fr/vocab/function/exploitation> ;
+        skos:notation ?functionCode .
+}
+ORDER BY ?functionCode ?identifier
+LIMIT 200

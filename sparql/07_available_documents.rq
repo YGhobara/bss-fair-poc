@@ -1,0 +1,17 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?documentCode ?label (COUNT(DISTINCT ?ouvrage) AS ?ouvrages)
+WHERE {
+    ?ouvrage
+        bsspoc:hasAvailableDocumentType ?documentType .
+
+    ?documentType
+        skos:notation ?documentCode .
+
+    OPTIONAL {
+        ?documentType skos:prefLabel ?label .
+    }
+}
+GROUP BY ?documentCode ?label
+ORDER BY DESC(?ouvrages)

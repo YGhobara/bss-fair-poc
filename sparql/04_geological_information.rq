@@ -1,0 +1,16 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?ouvrage ?identifier ?hasSection
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        dcterms:identifier ?identifier ;
+        bsspoc:hasVerifiedGeologicalLog true .
+
+    OPTIONAL {
+        ?ouvrage bsspoc:hasGeologicalSection ?hasSection .
+    }
+}
+ORDER BY ?identifier
+LIMIT 100

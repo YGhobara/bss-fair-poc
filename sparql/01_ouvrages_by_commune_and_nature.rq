@@ -1,0 +1,19 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?ouvrage ?identifier ?label
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        dcterms:identifier ?identifier ;
+        bsspoc:locatedInCommune
+            <https://fair.scribis.fr/id/commune/45234> ;
+        bsspoc:hasNature
+            <https://fair.scribis.fr/vocab/nature/forage> .
+
+    OPTIONAL {
+        ?ouvrage rdfs:label ?label .
+    }
+}
+ORDER BY ?identifier

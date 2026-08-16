@@ -1,0 +1,25 @@
+services:
+  fuseki:
+    build:
+      context: ./docker/fuseki
+      args:
+        JENA_VERSION: "6.2.0"
+
+    container_name: bss-fuseki
+
+    ports:
+      - "3030:3030"
+
+    volumes:
+      - fuseki_data:/fuseki/databases/bss
+
+    # TEMPORARILY writable so we can populate TDB2.
+    command:
+      [
+        "--update",
+        "--loc=/fuseki/databases/bss",
+        "/bss"
+      ]
+
+volumes:
+  fuseki_data:

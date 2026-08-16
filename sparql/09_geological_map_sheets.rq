@@ -1,0 +1,19 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?sheetNumber ?sheetName
+       (COUNT(DISTINCT ?ouvrage) AS ?ouvrages)
+WHERE {
+    ?ouvrage
+        bsspoc:associatedGeologicalMapSheet ?sheet .
+
+    ?sheet
+        dcterms:identifier ?sheetNumber .
+
+    OPTIONAL {
+        ?sheet rdfs:label ?sheetName .
+    }
+}
+GROUP BY ?sheetNumber ?sheetName
+ORDER BY DESC(?ouvrages)

@@ -1,0 +1,19 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?natureCode ?label
+       (COUNT(DISTINCT ?ouvrage) AS ?count)
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        bsspoc:hasNature ?nature .
+
+    ?nature
+        skos:notation ?natureCode .
+
+    OPTIONAL {
+        ?nature skos:prefLabel ?label .
+    }
+}
+GROUP BY ?natureCode ?label
+ORDER BY DESC(?count)

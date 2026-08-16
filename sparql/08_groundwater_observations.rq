@@ -1,0 +1,30 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?ouvrage ?identifier ?depth ?date
+WHERE {
+    ?observation
+        a bsspoc:GroundwaterDepthObservation ;
+        sosa:hasFeatureOfInterest ?ouvrage ;
+        sosa:observedProperty
+            bsspoc:groundwaterDepthBelowGround ;
+        sosa:hasResult ?result .
+
+    ?ouvrage
+        dcterms:identifier ?identifier .
+
+    ?result
+        qudt:value ?depth ;
+        qudt:hasUnit unit:M .
+
+    OPTIONAL {
+        ?observation sosa:phenomenonTime ?instant .
+        ?instant time:inXSDDate ?date .
+    }
+}
+ORDER BY ?date
+LIMIT 100

@@ -1,0 +1,12 @@
+PREFIX bsspoc: <https://fair.scribis.fr/ontology/bss#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?ouvrage ?identifier
+WHERE {
+    ?ouvrage
+        a bsspoc:UndergroundWork ;
+        dcterms:identifier ?identifier ;
+        bsspoc:isGroundwaterPoint true .
+}
+ORDER BY ?identifier
+LIMIT 100
