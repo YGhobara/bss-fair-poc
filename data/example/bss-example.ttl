@@ -1,0 +1,33 @@
+@prefix bsspoc: <https://fair.scribis.fr/ontology/bss#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+
+<https://fair.scribis.fr/id/commune/45135>
+    a bsspoc:Commune ;
+    dcterms:identifier "45135" ;
+    rdfs:label "Erceville"@fr .
+
+<https://fair.scribis.fr/id/geometry/BSS000WBFM>
+    a sf:Point ;
+    geo:asWKT
+        "<http://www.opengis.net/def/crs/EPSG/0/2154> POINT(626545 6794411)"^^geo:wktLiteral .
+
+<https://fair.scribis.fr/id/ouvrage/BSS000WBFM>
+    a bsspoc:UndergroundWork ;
+
+    dcterms:identifier "BSS000WBFM" ;
+
+    bsspoc:legacyIndex "02927X1001" ;
+    bsspoc:legacyDesignation "F" ;
+
+    bsspoc:hasNature
+        <https://fair.scribis.fr/vocab/nature/forage> ;
+
+    rdfs:label "BSS000WBFM" ;
+    
+    bsspoc:locatedInCommune
+        <https://fair.scribis.fr/id/commune/45135> .
+
+    geo:hasGeometry
+        <https://fair.scribis.fr/id/geometry/BSS000WBFM> .

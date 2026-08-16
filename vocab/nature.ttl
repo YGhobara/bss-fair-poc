@@ -1,0 +1,32 @@
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://fair.scribis.fr/vocab/nature>
+    a skos:ConceptScheme ;
+    dcterms:title "BSS ouvrage nature vocabulary - prototype representation"@en ;
+    dcterms:description
+        "Prototype SKOS representation derived from values of the lex_nature field in the BRGM BSS Loiret export. This is not an official BRGM vocabulary."@en .
+
+<https://fair.scribis.fr/vocab/nature/forage>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "FORAGE" ;
+    skos:prefLabel "Forage"@fr .
+
+<https://fair.scribis.fr/vocab/nature/puits>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "PUITS" ;
+    skos:prefLabel "Puits"@fr .
+
+<https://fair.scribis.fr/vocab/nature/sondage>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "SONDAGE" ;
+    skos:prefLabel "Sondage"@fr .
+
+<https://fair.scribis.fr/vocab/nature/source>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "SOURCE" ;
+    skos:prefLabel "Source"@fr .

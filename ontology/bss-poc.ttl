@@ -1,0 +1,57 @@
+@prefix bsspoc: <https://fair.scribis.fr/ontology/bss#> .
+@prefix geo:    <http://www.opengis.net/ont/geosparql#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<https://fair.scribis.fr/ontology/bss>
+    a owl:Ontology ;
+    rdfs:label "BSS FAIR prototype ontology"@en ;
+    rdfs:comment
+        "Prototype ontology for semanticising a BRGM BSS Loiret export. This is not an official BRGM vocabulary."@en .
+
+bsspoc:UndergroundWork
+    a owl:Class ;
+    rdfs:subClassOf geo:Feature ;
+    rdfs:label "Ouvrage souterrain BSS"@fr ;
+    rdfs:label "BSS underground work"@en ;
+    rdfs:comment
+        "A subsurface work or feature represented as an ouvrage in the source BSS export."@en .
+
+bsspoc:legacyIndex
+    a owl:DatatypeProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range rdfs:Literal ;
+    rdfs:label "ancien indice BSS"@fr ;
+    rdfs:comment "Legacy BSS index component retained by the source dataset."@en .
+
+bsspoc:legacyDesignation
+    a owl:DatatypeProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range rdfs:Literal ;
+    rdfs:label "ancienne désignation BSS"@fr .
+
+bsspoc:hasNature
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "nature de l'ouvrage"@fr ;
+    rdfs:label "work nature"@en ;
+    rdfs:comment
+        "Associates a BSS underground work with its nature as expressed by the source BSS vocabulary."@en .
+
+bsspoc:Commune
+    a owl:Class ;
+    rdfs:subClassOf geo:Feature ;
+    rdfs:label "Commune"@fr ;
+    rdfs:label "Municipality"@en .
+
+bsspoc:locatedInCommune
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range bsspoc:Commune ;
+    rdfs:subPropertyOf geo:sfWithin ;
+    rdfs:label "situé dans la commune"@fr ;
+    rdfs:label "located in municipality"@en .
