@@ -9,8 +9,6 @@
 <https://fair.scribis.fr/ontology/bss>
     a owl:Ontology ;
     rdfs:label "BSS FAIR prototype ontology"@en ;
-    rdfs:comment
-        "Prototype ontology for semanticising a BRGM BSS Loiret export. This is not an official BRGM vocabulary."@en .
 
 bsspoc:UndergroundWork
     a owl:Class ;
@@ -40,7 +38,7 @@ bsspoc:hasNature
     rdfs:label "nature de l'ouvrage"@fr ;
     rdfs:label "work nature"@en ;
     rdfs:comment
-        "Associates a BSS underground work with its nature as expressed by the source BSS vocabulary."@en .
+        "Associates a BSS underground work with its nature."@en .
 
 bsspoc:Commune
     a owl:Class ;

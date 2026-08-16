@@ -3,9 +3,9 @@
 
 <https://fair.scribis.fr/vocab/nature>
     a skos:ConceptScheme ;
-    dcterms:title "BSS ouvrage nature vocabulary - prototype representation"@en ;
+    dcterms:title "BSS ouvrage nature vocabulary"@en ;
     dcterms:description
-        "Prototype SKOS representation derived from values of the lex_nature field in the BRGM BSS Loiret export. This is not an official BRGM vocabulary."@en .
+        "Representation derived from values of the lex_nature field."@en .
 
 <https://fair.scribis.fr/vocab/nature/forage>
     a skos:Concept ;
