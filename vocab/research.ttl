@@ -1,0 +1,42 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://fair.scribis.fr/vocab/research>
+    a skos:ConceptScheme ;
+    dcterms:title "BSS research target vocabulary"@en .
+
+<https://fair.scribis.fr/vocab/research/eau>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/research/hydrocarbure>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "HYDROCARBURE" ;
+    skos:prefLabel "Hydrocarbure"@fr .
+
+<https://fair.scribis.fr/vocab/research/materiaux>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "MATERIAUX" ;
+    skos:prefLabel "Materiaux"@fr .
+
+<https://fair.scribis.fr/vocab/research/argile>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "ARGILE" ;
+    skos:prefLabel "Argile"@fr .
+
+<https://fair.scribis.fr/vocab/research/sable>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "SABLE" ;
+    skos:prefLabel "Sable"@fr .
+
+<https://fair.scribis.fr/vocab/research/geothermie>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "GEOTHERMIE" ;
+    skos:prefLabel "Géothermie"@fr .

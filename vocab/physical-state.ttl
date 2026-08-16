@@ -1,0 +1,30 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://fair.scribis.fr/vocab/physical-state>
+    a skos:ConceptScheme ;
+    dcterms:title "BSS physical state vocabulary"@en .
+
+<https://fair.scribis.fr/vocab/physical-state/operationnel>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "OPERATIONNEL" ;
+    skos:prefLabel "Opérationnel"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state/rebouche>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "REBOUCHE" ;
+    skos:prefLabel "Rebouché"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state/non-realise>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "NON-REALISE" ;
+    skos:prefLabel "Non réalisé"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state/prevu>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "PREVU" ;
+    skos:prefLabel "Prévu"@fr .

@@ -1,0 +1,11 @@
+<https://fair.scribis.fr/vocab/reconnaissance/geologie>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GEOLOGIE" ;
+    skos:prefLabel "Géologie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/sol-fondation>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "SOL-FONDATION" ;
+    skos:prefLabel "Sol de fondation"@fr .

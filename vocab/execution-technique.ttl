@@ -1,0 +1,19 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/execution-technique/rotation>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "ROTATION" ;
+    skos:prefLabel "Rotation"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/carottage>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "CAROTTAGE" ;
+    skos:prefLabel "Carottage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/boue>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "BOUE" ;
+    skos:prefLabel "Boue"@fr .

@@ -149,3 +149,60 @@ bsspoc:hasFunction
     rdfs:label "work function"@en ;
     rdfs:comment
         "Associates a BSS underground work with a function concept derived from the lex_fonction vocabulary."@en .
+
+
+# PREDICAT objet de recherche / research target
+bsspoc:hasResearchTarget
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "objet de recherche"@fr ;
+    rdfs:label "research target"@en .
+
+# PREDICAT objectif de reconnaissance / reconnaissance objective
+bsspoc:hasReconnaissanceObjective
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "objectif de reconnaissance"@fr ;
+    rdfs:label "reconnaissance objective"@en .
+
+# PREDICAT ressource exploitée / exploited resource
+bsspoc:exploitsResource
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "ressource exploitée"@fr ;
+    rdfs:label "exploited resource"@en .
+
+# PREDICAT utilisation
+bsspoc:hasUtilisation
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "utilisation"@fr ;
+    rdfs:label "utilisation"@en .
+
+# PREDICAT état physique / physical state -- BROAD
+bsspoc:hasPhysicalState
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "état physique"@fr ;
+    rdfs:label "physical state"@en .
+
+# PREDICAT état détaillé / detailed state -- DETAILED
+bsspoc:hasDetailedState
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "état détaillé"@fr ;
+    rdfs:label "detailed state"@en .
+
+# PREDICAT technique d'exécution / execution technique
+bsspoc:hasExecutionTechnique
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "technique d'exécution"@fr ;
+    rdfs:label "execution technique"@en .
