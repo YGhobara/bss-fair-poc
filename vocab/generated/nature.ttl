@@ -1,0 +1,102 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/nature/affleurement-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "AFFLEUREMENT-EAU" ;
+    skos:prefLabel "Affleurement eau"@fr .
+
+<https://fair.scribis.fr/vocab/nature/affleurement-eau-souterraine> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "AFFLEUREMENT-EAU-SOUTERRAINE" ;
+    skos:prefLabel "Affleurement eau souterraine"@fr .
+
+<https://fair.scribis.fr/vocab/nature/affleurement-geologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "AFFLEUREMENT-GEOLOGIQUE" ;
+    skos:prefLabel "Affleurement geologique"@fr .
+
+<https://fair.scribis.fr/vocab/nature/carriere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "CARRIERE" ;
+    skos:prefLabel "Carriere"@fr .
+
+<https://fair.scribis.fr/vocab/nature/cavite-anthropique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "CAVITE-ANTHROPIQUE" ;
+    skos:prefLabel "Cavite anthropique"@fr .
+
+<https://fair.scribis.fr/vocab/nature/cavite-naturelle> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "CAVITE-NATURELLE" ;
+    skos:prefLabel "Cavite naturelle"@fr .
+
+<https://fair.scribis.fr/vocab/nature/excavation-ciel-ouvert> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "EXCAVATION-CIEL-OUVERT" ;
+    skos:prefLabel "Excavation ciel ouvert"@fr .
+
+<https://fair.scribis.fr/vocab/nature/forage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "FORAGE" ;
+    skos:prefLabel "Forage"@fr .
+
+<https://fair.scribis.fr/vocab/nature/forage-incline> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "FORAGE-INCLINE" ;
+    skos:prefLabel "Forage incline"@fr .
+
+<https://fair.scribis.fr/vocab/nature/gite-minier> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "GITE-MINIER" ;
+    skos:prefLabel "Gite minier"@fr .
+
+<https://fair.scribis.fr/vocab/nature/indication> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "INDICATION" ;
+    skos:prefLabel "Indication"@fr .
+
+<https://fair.scribis.fr/vocab/nature/indice-gitologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "INDICE-GITOLOGIQUE" ;
+    skos:prefLabel "Indice gitologique"@fr .
+
+<https://fair.scribis.fr/vocab/nature/mesure> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "MESURE" ;
+    skos:prefLabel "Mesure"@fr .
+
+<https://fair.scribis.fr/vocab/nature/prise-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "PRISE-EAU" ;
+    skos:prefLabel "Prise eau"@fr .
+
+<https://fair.scribis.fr/vocab/nature/puits> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "PUITS" ;
+    skos:prefLabel "Puits"@fr .
+
+<https://fair.scribis.fr/vocab/nature/sondage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "SONDAGE" ;
+    skos:prefLabel "Sondage"@fr .
+
+<https://fair.scribis.fr/vocab/nature/source> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "SOURCE" ;
+    skos:prefLabel "Source"@fr .
+
+<https://fair.scribis.fr/vocab/nature/station-jaugeage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "STATION-JAUGEAGE" ;
+    skos:prefLabel "Station jaugeage"@fr .
+
+<https://fair.scribis.fr/vocab/nature/tranchee> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/nature> ;
+    skos:notation "TRANCHEE" ;
+    skos:prefLabel "Tranchee"@fr .
+
+<https://fair.scribis.fr/vocab/nature> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_nature in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS ouvrage nature vocabulary"@en .
+

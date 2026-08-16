@@ -1,0 +1,252 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/execution-technique/abatage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "ABATAGE" ;
+    skos:prefLabel "Abatage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/air> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "AIR" ;
+    skos:prefLabel "Air"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/aleseur> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "ALESEUR" ;
+    skos:prefLabel "Aleseur"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/battage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "BATTAGE" ;
+    skos:prefLabel "Battage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/benne-preneuse> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "BENNE-PRENEUSE" ;
+    skos:prefLabel "Benne preneuse"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/benoto> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "BENOTO" ;
+    skos:prefLabel "Benoto"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/boue> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "BOUE" ;
+    skos:prefLabel "Boue"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/carot-marteau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "CAROT-MARTEAU" ;
+    skos:prefLabel "Carot marteau"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/carot-percussion> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "CAROT-PERCUSSION" ;
+    skos:prefLabel "Carot percussion"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/carottage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "CAROTTAGE" ;
+    skos:prefLabel "Carottage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/ciel-ouvert> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "CIEL-OUVERT" ;
+    skos:prefLabel "Ciel ouvert"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/dragage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "DRAGAGE" ;
+    skos:prefLabel "Dragage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/dragline> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "DRAGLINE" ;
+    skos:prefLabel "Dragline"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/excavage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "EXCAVAGE" ;
+    skos:prefLabel "Excavage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/explosif> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "EXPLOSIF" ;
+    skos:prefLabel "Explosif"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/foncage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "FONCAGE" ;
+    skos:prefLabel "Foncage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/foncage-manuel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "FONCAGE-MANUEL" ;
+    skos:prefLabel "Foncage manuel"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/forage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "FORAGE" ;
+    skos:prefLabel "Forage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/inconnu> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "INCONNU" ;
+    skos:prefLabel "Inconnu"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/manuel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "MANUEL" ;
+    skos:prefLabel "Manuel"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/marteau-fond> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "MARTEAU-FOND" ;
+    skos:prefLabel "Marteau fond"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/moto-tariere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "MOTO-TARIERE" ;
+    skos:prefLabel "Moto tariere"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/mt> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "MT" ;
+    skos:prefLabel "Mt"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/pelle-mecanique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PELLE-MECANIQUE" ;
+    skos:prefLabel "Pelle mecanique"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/penetro-dyn> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PENETRO-DYN" ;
+    skos:prefLabel "Penetro dyn"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/penetro-stat> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PENETRO-STAT" ;
+    skos:prefLabel "Penetro stat"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/penetrometrie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PENETROMETRIE" ;
+    skos:prefLabel "Penetrometrie"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/percussion> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PERCUSSION" ;
+    skos:prefLabel "Percussion"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/percussion-rotation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PERCUSSION-ROTATION" ;
+    skos:prefLabel "Percussion rotation"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/percutant> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PERCUTANT" ;
+    skos:prefLabel "Percutant"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/poinconnage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "POINCONNAGE" ;
+    skos:prefLabel "Poinconnage"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/pressiometre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PRESSIOMETRE" ;
+    skos:prefLabel "Pressiometre"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/pros-marteau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PROS-MARTEAU" ;
+    skos:prefLabel "Pros marteau"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/puits> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "PUITS" ;
+    skos:prefLabel "Puits"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/resist> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "RESIST" ;
+    skos:prefLabel "Resist"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/rotation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "ROTATION" ;
+    skos:prefLabel "Rotation"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/sec> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "SEC" ;
+    skos:prefLabel "Sec"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/sismi-reflex> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "SISMI-REFLEX" ;
+    skos:prefLabel "Sismi reflex"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/sismi-refrac> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "SISMI-REFRAC" ;
+    skos:prefLabel "Sismi refrac"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/soupape> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "SOUPAPE" ;
+    skos:prefLabel "Soupape"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/taillant> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TAILLANT" ;
+    skos:prefLabel "Taillant"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/tariere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TARIERE" ;
+    skos:prefLabel "Tariere"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/tariere-main> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TARIERE-MAIN" ;
+    skos:prefLabel "Tariere main"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/trepan> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TREPAN" ;
+    skos:prefLabel "Trepan"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/trepan-lames> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TREPAN-LAMES" ;
+    skos:prefLabel "Trepan lames"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/trepan-molettes> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TREPAN-MOLETTES" ;
+    skos:prefLabel "Trepan molettes"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/trepan-soupape> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TREPAN-SOUPAPE" ;
+    skos:prefLabel "Trepan soupape"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique/tube-battu> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/execution-technique> ;
+    skos:notation "TUBE-BATTU" ;
+    skos:prefLabel "Tube battu"@fr .
+
+<https://fair.scribis.fr/vocab/execution-technique> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_execution in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS execution technique vocabulary"@en .
+

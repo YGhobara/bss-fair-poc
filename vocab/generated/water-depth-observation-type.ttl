@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/water-depth-observation-type/niveau-d-eau-artesien> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/water-depth-observation-type> ;
+    skos:notation "niveau d'eau artésien" ;
+    skos:prefLabel "Niveau d'eau artésien"@fr .
+
+<https://fair.scribis.fr/vocab/water-depth-observation-type/ouvrage-sec> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/water-depth-observation-type> ;
+    skos:notation "ouvrage sec" ;
+    skos:prefLabel "Ouvrage sec"@fr .
+
+<https://fair.scribis.fr/vocab/water-depth-observation-type/premier-niveau-d-eau-rencontre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/water-depth-observation-type> ;
+    skos:notation "premier niveau d'eau rencontré" ;
+    skos:prefLabel "Premier niveau d'eau rencontré"@fr .
+
+<https://fair.scribis.fr/vocab/water-depth-observation-type/profondeur-de-l-eau-observee-en-fin-de-travaux-dans-l-ouvrage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/water-depth-observation-type> ;
+    skos:notation "profondeur de l'eau observée en fin de travaux dans l'ouvrage" ;
+    skos:prefLabel "Profondeur de l'eau observée en fin de travaux dans l'ouvrage"@fr .
+
+<https://fair.scribis.fr/vocab/water-depth-observation-type> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_type_prof_eau_sol in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS water depth observation type vocabulary"@en .
+

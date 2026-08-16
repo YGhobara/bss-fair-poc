@@ -1,0 +1,237 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/utilisation/abrasif> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "ABRASIF" ;
+    skos:prefLabel "Abrasif"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/absorbant> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "ABSORBANT" ;
+    skos:prefLabel "Absorbant"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/aep> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "AEP" ;
+    skos:prefLabel "Aep"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/agronomie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "AGRONOMIE" ;
+    skos:prefLabel "Agronomie"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/aquifere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "AQUIFERE" ;
+    skos:prefLabel "Aquifere"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/chauffage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "CHAUFFAGE" ;
+    skos:prefLabel "Chauffage"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/chaussee> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "CHAUSSEE" ;
+    skos:prefLabel "Chaussee"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/ciment> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "CIMENT" ;
+    skos:prefLabel "Ciment"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/construction> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "CONSTRUCTION" ;
+    skos:prefLabel "Construction"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/couverture> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "COUVERTURE" ;
+    skos:prefLabel "Couverture"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/dallage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "DALLAGE" ;
+    skos:prefLabel "Dallage"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/depollution> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "DEPOLLUTION" ;
+    skos:prefLabel "Depollution"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-agricole> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-AGRICOLE" ;
+    skos:prefLabel "Eau agricole"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-alimentation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-ALIMENTATION" ;
+    skos:prefLabel "Eau alimentation"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-aspersion> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-ASPERSION" ;
+    skos:prefLabel "Eau aspersion"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-cheptel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-CHEPTEL" ;
+    skos:prefLabel "Eau cheptel"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-collective> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-COLLECTIVE" ;
+    skos:prefLabel "Eau collective"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-domestique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-DOMESTIQUE" ;
+    skos:prefLabel "Eau domestique"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-individuelle> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-INDIVIDUELLE" ;
+    skos:prefLabel "Eau individuelle"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-industrielle> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-INDUSTRIELLE" ;
+    skos:prefLabel "Eau industrielle"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-irrigation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-IRRIGATION" ;
+    skos:prefLabel "Eau irrigation"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-minerale> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-MINERALE" ;
+    skos:prefLabel "Eau minerale"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-pisciculture> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-PISCICULTURE" ;
+    skos:prefLabel "Eau pisciculture"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/eau-service-public> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EAU-SERVICE-PUBLIC" ;
+    skos:prefLabel "Eau service public"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/embouteillage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "EMBOUTEILLAGE" ;
+    skos:prefLabel "Embouteillage"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/enrochement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "ENROCHEMENT" ;
+    skos:prefLabel "Enrochement"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/filtrant> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "FILTRANT" ;
+    skos:prefLabel "Filtrant"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/fontaine> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "FONTAINE" ;
+    skos:prefLabel "Fontaine"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/granulat-beton> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "GRANULAT-BETON" ;
+    skos:prefLabel "Granulat beton"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/granulat-leger> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "GRANULAT-LEGER" ;
+    skos:prefLabel "Granulat leger"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/gros-oeuvre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "GROS-OEUVRE" ;
+    skos:prefLabel "Gros oeuvre"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/incendie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "INCENDIE" ;
+    skos:prefLabel "Incendie"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/industrie-chimique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "INDUSTRIE-CHIMIQUE" ;
+    skos:prefLabel "Industrie chimique"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/isolant> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "ISOLANT" ;
+    skos:prefLabel "Isolant"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/pierre-taille> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "PIERRE-TAILLE" ;
+    skos:prefLabel "Pierre taille"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/pieu> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "PIEU" ;
+    skos:prefLabel "Pieu"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/piezometre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "PIEZOMETRE" ;
+    skos:prefLabel "Piezometre"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/pompe-a-chaleur> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "POMPE-A-CHALEUR" ;
+    skos:prefLabel "Pompe a chaleur"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/qualite-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "QUALITE-EAU" ;
+    skos:prefLabel "Qualite eau"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/rafraichissement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "RAFRAICHISSEMENT" ;
+    skos:prefLabel "Rafraichissement"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/refractaire> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "REFRACTAIRE" ;
+    skos:prefLabel "Refractaire"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/remblai> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "REMBLAI" ;
+    skos:prefLabel "Remblai"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/sonde-geothermique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "SONDE-GEOTHERMIQUE" ;
+    skos:prefLabel "Sonde geothermique"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/terre-cuite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "TERRE-CUITE" ;
+    skos:prefLabel "Terre cuite"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/usages-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "USAGES-EAU" ;
+    skos:prefLabel "Usages eau"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation/viabilite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/utilisation> ;
+    skos:notation "VIABILITE" ;
+    skos:prefLabel "Viabilite"@fr .
+
+<https://fair.scribis.fr/vocab/utilisation> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_utilisation in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS utilisation vocabulary"@en .
+

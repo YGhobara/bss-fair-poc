@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/research/argile> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "ARGILE" ;
+    skos:prefLabel "Argile"@fr .
+
+<https://fair.scribis.fr/vocab/research/calcaire> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "CALCAIRE" ;
+    skos:prefLabel "Calcaire"@fr .
+
+<https://fair.scribis.fr/vocab/research/eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/research/eau-minerale> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "EAU-MINERALE" ;
+    skos:prefLabel "Eau minerale"@fr .
+
+<https://fair.scribis.fr/vocab/research/fer> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "FER" ;
+    skos:prefLabel "Fer"@fr .
+
+<https://fair.scribis.fr/vocab/research/geothermie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "GEOTHERMIE" ;
+    skos:prefLabel "Géothermie"@fr .
+
+<https://fair.scribis.fr/vocab/research/geothermie-tbe> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "GEOTHERMIE-TBE" ;
+    skos:prefLabel "Geothermie tbe"@fr .
+
+<https://fair.scribis.fr/vocab/research/gravier> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "GRAVIER" ;
+    skos:prefLabel "Gravier"@fr .
+
+<https://fair.scribis.fr/vocab/research/huile> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "HUILE" ;
+    skos:prefLabel "Huile"@fr .
+
+<https://fair.scribis.fr/vocab/research/hydrocarbure> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "HYDROCARBURE" ;
+    skos:prefLabel "Hydrocarbure"@fr .
+
+<https://fair.scribis.fr/vocab/research/marne> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "MARNE" ;
+    skos:prefLabel "Marne"@fr .
+
+<https://fair.scribis.fr/vocab/research/materiaux> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "MATERIAUX" ;
+    skos:prefLabel "Matériaux"@fr .
+
+<https://fair.scribis.fr/vocab/research/sable> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/research> ;
+    skos:notation "SABLE" ;
+    skos:prefLabel "Sable"@fr .
+
+<https://fair.scribis.fr/vocab/research> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_recherche in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS research target vocabulary"@en .
+

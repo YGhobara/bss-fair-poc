@@ -1,0 +1,222 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/detailed-state/abandonne> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "ABANDONNE" ;
+    skos:prefLabel "Abandonne"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/acces> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "ACCES" ;
+    skos:prefLabel "Acces"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/amenage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "AMENAGE" ;
+    skos:prefLabel "Amenage"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/ancienne-exploitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "ANCIENNE-EXPLOITATION" ;
+    skos:prefLabel "Ancienne exploitation"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/arrivee-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "ARRIVEE-EAU" ;
+    skos:prefLabel "Arrivee eau"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/cimentation-annulaire> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "CIMENTATION-ANNULAIRE" ;
+    skos:prefLabel "Cimentation annulaire"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/cimentation-extrados> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "CIMENTATION-EXTRADOS" ;
+    skos:prefLabel "Cimentation extrados"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/cimentation-trou> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "CIMENTATION-TROU" ;
+    skos:prefLabel "Cimentation trou"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/colmate> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "COLMATE" ;
+    skos:prefLabel "Colmate"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/crepine> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "CREPINE" ;
+    skos:prefLabel "Crepine"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/decharge> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "DECHARGE" ;
+    skos:prefLabel "Decharge"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/effondre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "EFFONDRE" ;
+    skos:prefLabel "Effondre"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/entretenu> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "ENTRETENU" ;
+    skos:prefLabel "Entretenu"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/exploite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "EXPLOITE" ;
+    skos:prefLabel "Exploite"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/exploite-temp> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "EXPLOITE-TEMP" ;
+    skos:prefLabel "Exploite temp"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/inacces> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "INACCES" ;
+    skos:prefLabel "Inacces"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/jaillissant> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "JAILLISSANT" ;
+    skos:prefLabel "Jaillissant"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/massif-gravier> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "MASSIF-GRAVIER" ;
+    skos:prefLabel "Massif gravier"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/mesure> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "MESURE" ;
+    skos:prefLabel "Mesure"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/mesure-reguliere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "MESURE-REGULIERE" ;
+    skos:prefLabel "Mesure reguliere"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/non-amenage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NON-AMENAGE" ;
+    skos:prefLabel "Non amenage"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/non-exploite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NON-EXPLOITE" ;
+    skos:prefLabel "Non exploite"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/non-mesure> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NON-MESURE" ;
+    skos:prefLabel "Non mesure"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/non-prelev> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NON-PRELEV" ;
+    skos:prefLabel "Non prelev"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/non-retrouve> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NON-RETROUVE" ;
+    skos:prefLabel "Non retrouve"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/non-visible> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NON-VISIBLE" ;
+    skos:prefLabel "Non visible"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/noye> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "NOYE" ;
+    skos:prefLabel "Noye"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/paroi-beton> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "PAROI-BETON" ;
+    skos:prefLabel "Paroi beton"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/paroi-nue> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "PAROI-NUE" ;
+    skos:prefLabel "Paroi nue"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/paroi-pierre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "PAROI-PIERRE" ;
+    skos:prefLabel "Paroi pierre"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/pompe> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "POMPE" ;
+    skos:prefLabel "Pompe"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/ponctuelle> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "PONCTUELLE" ;
+    skos:prefLabel "Ponctuelle"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/prelev> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "PRELEV" ;
+    skos:prefLabel "Prelev"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/puisard> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "PUISARD" ;
+    skos:prefLabel "Puisard"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/rebouche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "REBOUCHE" ;
+    skos:prefLabel "Rebouche"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/recouvert> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "RECOUVERT" ;
+    skos:prefLabel "Recouvert"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/remblai> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "REMBLAI" ;
+    skos:prefLabel "Remblai"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/remblai-partiel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "REMBLAI-PARTIEL" ;
+    skos:prefLabel "Remblai partiel"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/sale> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "SALE" ;
+    skos:prefLabel "Sale"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/sec> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "SEC" ;
+    skos:prefLabel "Sec"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/tube-metal> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "TUBE-METAL" ;
+    skos:prefLabel "Tube metal"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/tube-plastique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "TUBE-PLASTIQUE" ;
+    skos:prefLabel "Tube plastique"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state/vegetation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/detailed-state> ;
+    skos:notation "VEGETATION" ;
+    skos:prefLabel "Vegetation"@fr .
+
+<https://fair.scribis.fr/vocab/detailed-state> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_etat in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS detailed state vocabulary"@en .
+

@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/physical-state/non-realise> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "Non réalisé" ;
+    skos:prefLabel "Non réalisé"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state/operationnel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "Opérationnel" ;
+    skos:prefLabel "Opérationnel"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state/prevu> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "Prévu" ;
+    skos:prefLabel "Prévu"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state/rebouche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/physical-state> ;
+    skos:notation "Rebouché" ;
+    skos:prefLabel "Rebouché"@fr .
+
+<https://fair.scribis.fr/vocab/physical-state> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_etat_physique in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS physical state vocabulary"@en .
+

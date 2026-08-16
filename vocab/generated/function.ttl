@@ -1,0 +1,180 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/function/exploitation/eau/injection> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/EAU/INJECTION" ;
+    skos:prefLabel "Injection"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation/eau/prelevement> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/EAU/PRELEVEMENT" ;
+    skos:prefLabel "Prelevement"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation/geothermie/basse-energie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation/geothermie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/GEOTHERMIE/BASSE-ENERGIE" ;
+    skos:prefLabel "Basse energie"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation/geothermie/tres-basse-energie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation/geothermie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/GEOTHERMIE/TRES-BASSE-ENERGIE" ;
+    skos:prefLabel "Tres basse energie"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation/roches-substances> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/ROCHES-SUBSTANCES" ;
+    skos:prefLabel "Roches substances"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/archeologie-preventive> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/ARCHEOLOGIE-PREVENTIVE" ;
+    skos:prefLabel "Archeologie preventive"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/eau/parametres-hydrodynamiques> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/EAU/PARAMETRES-HYDRODYNAMIQUES" ;
+    skos:prefLabel "Parametres hydrodynamiques"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/geologie/geophysique> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance/geologie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/GEOLOGIE/GEOPHYSIQUE" ;
+    skos:prefLabel "Geophysique"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/geologie/geotechnique> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance/geologie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/GEOLOGIE/GEOTECHNIQUE" ;
+    skos:prefLabel "Geotechnique"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/geothermie/tres-basse-energie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance/geothermie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/GEOTHERMIE/TRES-BASSE-ENERGIE" ;
+    skos:prefLabel "Tres basse energie"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/roches-substances> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/ROCHES-SUBSTANCES" ;
+    skos:prefLabel "Roches substances"@fr .
+
+<https://fair.scribis.fr/vocab/function/stockage/eau/injection> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/stockage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "STOCKAGE/EAU/INJECTION" ;
+    skos:prefLabel "Injection"@fr .
+
+<https://fair.scribis.fr/vocab/function/stockage/geothermie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/stockage> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "STOCKAGE/GEOTHERMIE" ;
+    skos:prefLabel "Geothermie"@fr .
+
+<https://fair.scribis.fr/vocab/function/surveillance/eau/debitmetrie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/surveillance/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE/EAU/DEBITMETRIE" ;
+    skos:prefLabel "Debitmetrie"@fr .
+
+<https://fair.scribis.fr/vocab/function/surveillance/eau/piezometrie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/surveillance/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE/EAU/PIEZOMETRIE" ;
+    skos:prefLabel "Piezometrie"@fr .
+
+<https://fair.scribis.fr/vocab/function/surveillance/eau/qualitometrie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/surveillance/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE/EAU/QUALITOMETRIE" ;
+    skos:prefLabel "Qualitometrie"@fr .
+
+<https://fair.scribis.fr/vocab/function/pas-de-fonction> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "PAS DE FONCTION" ;
+    skos:prefLabel "Pas de fonction"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/eau> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/geothermie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/GEOTHERMIE" ;
+    skos:prefLabel "Geothermie"@fr .
+
+<https://fair.scribis.fr/vocab/function/stockage/eau> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/stockage> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "STOCKAGE/EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation/eau> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation/geothermie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/exploitation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/GEOTHERMIE" ;
+    skos:prefLabel "Geothermie"@fr .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance/geologie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/reconnaissance> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE/GEOLOGIE" ;
+    skos:prefLabel "Geologie"@fr .
+
+<https://fair.scribis.fr/vocab/function/surveillance> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE" ;
+    skos:prefLabel "Surveillance"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function/stockage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "STOCKAGE" ;
+    skos:prefLabel "Stockage"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function/surveillance/eau> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/function/surveillance> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE/EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/function/exploitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION" ;
+    skos:prefLabel "Exploitation"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function/reconnaissance> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "RECONNAISSANCE" ;
+    skos:prefLabel "Reconnaissance"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_fonction in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS function vocabulary"@en ;
+    skos:hasTopConcept <https://fair.scribis.fr/vocab/function/exploitation>,
+        <https://fair.scribis.fr/vocab/function/pas-de-fonction>,
+        <https://fair.scribis.fr/vocab/function/reconnaissance>,
+        <https://fair.scribis.fr/vocab/function/stockage>,
+        <https://fair.scribis.fr/vocab/function/surveillance> .
+

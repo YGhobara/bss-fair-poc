@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/record-organisation/agence-de-l-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "AGENCE DE L'EAU" ;
+    skos:prefLabel "Agence de l'eau"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/brgm> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "BRGM" ;
+    skos:prefLabel "Brgm"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/cerema> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "CEREMA" ;
+    skos:prefLabel "Cerema"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/dreal> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "DREAL" ;
+    skos:prefLabel "Dreal"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/gesfor> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "GESFOR" ;
+    skos:prefLabel "Gesfor"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/inrap> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "INRAP" ;
+    skos:prefLabel "Inrap"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/ministere-environnement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "MINISTERE ENVIRONNEMENT" ;
+    skos:prefLabel "Ministere environnement"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/portail-duplos> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "Portail DUPLOS" ;
+    skos:prefLabel "Portail duplos"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/portail-forage-domestique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "Portail forage domestique" ;
+    skos:prefLabel "Portail forage domestique"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation/portail-gmi> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/record-organisation> ;
+    skos:notation "Portail GMI" ;
+    skos:prefLabel "Portail gmi"@fr .
+
+<https://fair.scribis.fr/vocab/record-organisation> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_organisme in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS record organisation vocabulary"@en .
+

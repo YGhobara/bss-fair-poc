@@ -1,0 +1,180 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/usage/eau/aep/alimentation-collective> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/aep> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AEP/ALIMENTATION-COLLECTIVE" ;
+    skos:prefLabel "Alimentation collective"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/aep/alimentation-individuelle> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/aep> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AEP/ALIMENTATION-INDIVIDUELLE" ;
+    skos:prefLabel "Alimentation individuelle"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/elevage> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/ELEVAGE" ;
+    skos:prefLabel "Elevage"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation/aspersion> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION/ASPERSION" ;
+    skos:prefLabel "Aspersion"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation/irrigation-autre-procede> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION/IRRIGATION-AUTRE-PROCEDE" ;
+    skos:prefLabel "Irrigation autre procede"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation/irrigation-goutte-a-goutte> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION/IRRIGATION-GOUTTE-A-GOUTTE" ;
+    skos:prefLabel "Irrigation goutte a goutte"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation/irrigation-gravitaire> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION/IRRIGATION-GRAVITAIRE" ;
+    skos:prefLabel "Irrigation gravitaire"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation/lutte-antigel-de-culture-perenne> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION/LUTTE-ANTIGEL-DE-CULTURE-PERENNE" ;
+    skos:prefLabel "Lutte antigel de culture perenne"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/defense-incendie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/DEFENSE-INCENDIE" ;
+    skos:prefLabel "Defense incendie"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/domestique> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/DOMESTIQUE" ;
+    skos:prefLabel "Domestique"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/embouteillage> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/EMBOUTEILLAGE" ;
+    skos:prefLabel "Embouteillage"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/energie/geothermie-sur-aquifere> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/energie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/ENERGIE/GEOTHERMIE-SUR-AQUIFERE" ;
+    skos:prefLabel "Geothermie sur aquifere"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/energie/pompe-a-chaleur> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/energie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/ENERGIE/POMPE-A-CHALEUR" ;
+    skos:prefLabel "Pompe a chaleur"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/industrie/industrie-hors-agroalimentaire> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/industrie> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/INDUSTRIE/INDUSTRIE-HORS-AGROALIMENTAIRE" ;
+    skos:prefLabel "Industrie hors agroalimentaire"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/loisirs/arrosage-loisirs> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/loisirs> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/LOISIRS/ARROSAGE-LOISIRS" ;
+    skos:prefLabel "Arrosage loisirs"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/realimentation-d-une-ressource-en-eau> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/REALIMENTATION-D-UNE-RESSOURCE-EN-EAU" ;
+    skos:prefLabel "Realimentation d une ressource en eau"@fr .
+
+<https://fair.scribis.fr/vocab/usage/materiaux-construction/granulat-beton> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/materiaux-construction> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "MATERIAUX-CONSTRUCTION/GRANULAT-BETON" ;
+    skos:prefLabel "Granulat beton"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/industrie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/INDUSTRIE" ;
+    skos:prefLabel "Industrie"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/loisirs> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/LOISIRS" ;
+    skos:prefLabel "Loisirs"@fr .
+
+<https://fair.scribis.fr/vocab/usage/geothermie-avec-sonde> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "GEOTHERMIE-AVEC-SONDE" ;
+    skos:prefLabel "Geothermie avec sonde"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/usage> .
+
+<https://fair.scribis.fr/vocab/usage/pas-d-usage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "PAS-D-USAGE" ;
+    skos:prefLabel "Pas d usage"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/usage> .
+
+<https://fair.scribis.fr/vocab/usage/usage-inconnu> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "USAGE-INCONNU" ;
+    skos:prefLabel "Usage inconnu"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/usage> .
+
+<https://fair.scribis.fr/vocab/usage/eau/aep> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AEP" ;
+    skos:prefLabel "Aep"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE" ;
+    skos:prefLabel "Agriculture"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/energie> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/ENERGIE" ;
+    skos:prefLabel "Energie"@fr .
+
+<https://fair.scribis.fr/vocab/usage/materiaux-construction> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "MATERIAUX-CONSTRUCTION" ;
+    skos:prefLabel "Materiaux construction"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/usage> .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> a skos:Concept ;
+    skos:broader <https://fair.scribis.fr/vocab/usage/eau/agriculture> ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION" ;
+    skos:prefLabel "Irrigation"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU" ;
+    skos:prefLabel "Eau"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/usage> .
+
+<https://fair.scribis.fr/vocab/usage> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_usage in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS usage vocabulary"@en ;
+    skos:hasTopConcept <https://fair.scribis.fr/vocab/usage/eau>,
+        <https://fair.scribis.fr/vocab/usage/geothermie-avec-sonde>,
+        <https://fair.scribis.fr/vocab/usage/materiaux-construction>,
+        <https://fair.scribis.fr/vocab/usage/pas-d-usage>,
+        <https://fair.scribis.fr/vocab/usage/usage-inconnu> .
+

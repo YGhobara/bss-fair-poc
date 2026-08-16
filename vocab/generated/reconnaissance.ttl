@@ -1,0 +1,382 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/reconnaissance/adduction-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "ADDUCTION-EAU" ;
+    skos:prefLabel "Adduction eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/amenagement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "AMENAGEMENT" ;
+    skos:prefLabel "Amenagement"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/aqueduc> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "AQUEDUC" ;
+    skos:prefLabel "Aqueduc"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/autoroute> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "AUTOROUTE" ;
+    skos:prefLabel "Autoroute"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/autoroute-campagne> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "AUTOROUTE-CAMPAGNE" ;
+    skos:prefLabel "Autoroute campagne"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/autoroute-urbaine> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "AUTOROUTE-URBAINE" ;
+    skos:prefLabel "Autoroute urbaine"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/base-loisir> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BASE-LOISIR" ;
+    skos:prefLabel "Base loisir"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT" ;
+    skos:prefLabel "Batiment"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-industriel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-INDUSTRIEL" ;
+    skos:prefLabel "Batiment industriel"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-industriel-leger> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-INDUSTRIEL-LEGER" ;
+    skos:prefLabel "Batiment industriel leger"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-industriel-lourd> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-INDUSTRIEL-LOURD" ;
+    skos:prefLabel "Batiment industriel lourd"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-leger> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-LEGER" ;
+    skos:prefLabel "Batiment leger"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-lourd> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-LOURD" ;
+    skos:prefLabel "Batiment lourd"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-public> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-PUBLIC" ;
+    skos:prefLabel "Batiment public"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/batiment-souterrain> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "BATIMENT-SOUTERRAIN" ;
+    skos:prefLabel "Batiment souterrain"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/canal> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CANAL" ;
+    skos:prefLabel "Canal"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/carte-geologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CARTE-GEOLOGIQUE" ;
+    skos:prefLabel "Carte geologique"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/carte-hydrogeologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CARTE-HYDROGEOLOGIQUE" ;
+    skos:prefLabel "Carte hydrogeologique"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/cavite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CAVITE" ;
+    skos:prefLabel "Cavite"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/cavite-naturelle> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CAVITE-NATURELLE" ;
+    skos:prefLabel "Cavite naturelle"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/centrale-nucleaire> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CENTRALE-NUCLEAIRE" ;
+    skos:prefLabel "Centrale nucleaire"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/cimetiere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CIMETIERE" ;
+    skos:prefLabel "Cimetiere"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/collecteur-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "COLLECTEUR-EAU" ;
+    skos:prefLabel "Collecteur eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/collecteur-egout> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "COLLECTEUR-EGOUT" ;
+    skos:prefLabel "Collecteur egout"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/conduite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "CONDUITE" ;
+    skos:prefLabel "Conduite"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/cours-d-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "COURS-D-EAU" ;
+    skos:prefLabel "Cours d eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/debit-riviere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "DEBIT-RIVIERE" ;
+    skos:prefLabel "Debit riviere"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/decharge> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "DECHARGE" ;
+    skos:prefLabel "Decharge"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/decharge-controlee> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "DECHARGE-CONTROLEE" ;
+    skos:prefLabel "Decharge controlee"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/deviation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "DEVIATION" ;
+    skos:prefLabel "Deviation"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/drainage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "DRAINAGE" ;
+    skos:prefLabel "Drainage"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/ecluse> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "ECLUSE" ;
+    skos:prefLabel "Ecluse"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/effondrement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "EFFONDREMENT" ;
+    skos:prefLabel "Effondrement"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/etude> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "ETUDE" ;
+    skos:prefLabel "Etude"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/fluctuation-nappe> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "FLUCTUATION-NAPPE" ;
+    skos:prefLabel "Fluctuation nappe"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/gazoduc> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GAZODUC" ;
+    skos:prefLabel "Gazoduc"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/geochimie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GEOCHIMIE" ;
+    skos:prefLabel "Geochimie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/geologie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GEOLOGIE" ;
+    skos:prefLabel "Geologie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/geophysique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GEOPHYSIQUE" ;
+    skos:prefLabel "Geophysique"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/geotechnique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GEOTECHNIQUE" ;
+    skos:prefLabel "Geotechnique"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/geothermie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "GEOTHERMIE" ;
+    skos:prefLabel "Geothermie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/habitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "HABITATION" ;
+    skos:prefLabel "Habitation"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/hydrochimie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "HYDROCHIMIE" ;
+    skos:prefLabel "Hydrochimie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/hydrogeologie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "HYDROGEOLOGIE" ;
+    skos:prefLabel "Hydrogeologie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/implantation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "IMPLANTATION" ;
+    skos:prefLabel "Implantation"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/injection> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "INJECTION" ;
+    skos:prefLabel "Injection"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/injection-coulis> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "INJECTION-COULIS" ;
+    skos:prefLabel "Injection coulis"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/injection-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "INJECTION-EAU" ;
+    skos:prefLabel "Injection eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/injection-eau-usee> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "INJECTION-EAU-USEE" ;
+    skos:prefLabel "Injection eau usee"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/ligne-haute-tension> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "LIGNE-HAUTE-TENSION" ;
+    skos:prefLabel "Ligne haute tension"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/methode-geophysique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "METHODE-GEOPHYSIQUE" ;
+    skos:prefLabel "Methode geophysique"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/nappe> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "NAPPE" ;
+    skos:prefLabel "Nappe"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/parametres-hydrauliques> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "PARAMETRES-HYDRAULIQUES" ;
+    skos:prefLabel "Parametres hydrauliques"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/petrographie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "PETROGRAPHIE" ;
+    skos:prefLabel "Petrographie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/plan-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "PLAN-EAU" ;
+    skos:prefLabel "Plan eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/pollution> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "POLLUTION" ;
+    skos:prefLabel "Pollution"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/pollution-nappe> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "POLLUTION-NAPPE" ;
+    skos:prefLabel "Pollution nappe"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/pont> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "PONT" ;
+    skos:prefLabel "Pont"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/pylone> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "PYLONE" ;
+    skos:prefLabel "Pylone"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/pylone-antenne> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "PYLONE-ANTENNE" ;
+    skos:prefLabel "Pylone antenne"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/qualite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "QUALITE" ;
+    skos:prefLabel "Qualite"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/rejet-eaux-usees> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "REJET-EAUX-USEES" ;
+    skos:prefLabel "Rejet eaux usees"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/reservoir-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "RESERVOIR-EAU" ;
+    skos:prefLabel "Reservoir eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/reservoir-liquide> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "RESERVOIR-LIQUIDE" ;
+    skos:prefLabel "Reservoir liquide"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/ressource-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "RESSOURCE-EAU" ;
+    skos:prefLabel "Ressource eau"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/route> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "ROUTE" ;
+    skos:prefLabel "Route"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/sol-fondation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "SOL-FONDATION" ;
+    skos:prefLabel "Sol fondation"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/station-epuration> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "STATION-EPURATION" ;
+    skos:prefLabel "Station epuration"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/stockage-gaz> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "STOCKAGE-GAZ" ;
+    skos:prefLabel "Stockage gaz"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/stratigraphie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "STRATIGRAPHIE" ;
+    skos:prefLabel "Stratigraphie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/terrassement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "TERRASSEMENT" ;
+    skos:prefLabel "Terrassement"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/trace> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "TRACE" ;
+    skos:prefLabel "Trace"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/voie-aerotrain> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "VOIE-AEROTRAIN" ;
+    skos:prefLabel "Voie aerotrain"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/zone-habitat> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "ZONE-HABITAT" ;
+    skos:prefLabel "Zone habitat"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance/zone-industrie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/reconnaissance> ;
+    skos:notation "ZONE-INDUSTRIE" ;
+    skos:prefLabel "Zone industrie"@fr .
+
+<https://fair.scribis.fr/vocab/reconnaissance> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_reconnaissance in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS reconnaissance objective vocabulary"@en .
+

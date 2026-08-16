@@ -1,0 +1,612 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://fair.scribis.fr/vocab/document-type/acidification> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ACIDIFICATION" ;
+    skos:prefLabel "Acidification"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/analyse-chimique-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ANALYSE-CHIMIQUE-EAU" ;
+    skos:prefLabel "Analyse chimique eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/analyse-chimique-roche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ANALYSE-CHIMIQUE-ROCHE" ;
+    skos:prefLabel "Analyse chimique roche"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/analyse-physique-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ANALYSE-PHYSIQUE-EAU" ;
+    skos:prefLabel "Analyse physique eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/analyse-physique-roche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ANALYSE-PHYSIQUE-ROCHE" ;
+    skos:prefLabel "Analyse physique roche"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/aq-prof> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "AQ-PROF" ;
+    skos:prefLabel "Aq prof"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/autorisation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "AUTORISATION" ;
+    skos:prefLabel "Autorisation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/avancement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "AVANCEMENT" ;
+    skos:prefLabel "Avancement"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/bacteriologie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "BACTERIOLOGIE" ;
+    skos:prefLabel "Bacteriologie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/bibliographie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "BIBLIOGRAPHIE" ;
+    skos:prefLabel "Bibliographie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/calcimetrie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CALCIMETRIE" ;
+    skos:prefLabel "Calcimetrie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/caracteristiques-crepine> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CARACTERISTIQUES-CREPINE" ;
+    skos:prefLabel "Caracteristiques crepine"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/caracteristiques-exploitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CARACTERISTIQUES-EXPLOITATION" ;
+    skos:prefLabel "Caracteristiques exploitation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/carte-interpretative> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CARTE-INTERPRETATIVE" ;
+    skos:prefLabel "Carte interpretative"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/certificat-de-rebouchage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CERTIFICAT-DE-REBOUCHAGE" ;
+    skos:prefLabel "Certificat de rebouchage"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/chimie-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CHIMIE-EAU" ;
+    skos:prefLabel "Chimie eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/chimie-roche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CHIMIE-ROCHE" ;
+    skos:prefLabel "Chimie roche"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/cimentation-log> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CIMENTATION-LOG" ;
+    skos:prefLabel "Cimentation log"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/classement-geotechnique-sol> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CLASSEMENT-GEOTECHNIQUE-SOL" ;
+    skos:prefLabel "Classement geotechnique sol"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/conductivite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CONDUCTIVITE" ;
+    skos:prefLabel "Conductivite"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/constat-comblement> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CONSTAT-COMBLEMENT" ;
+    skos:prefLabel "Constat comblement"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/correspondance> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CORRESPONDANCE" ;
+    skos:prefLabel "Correspondance"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-electrique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-ELECTRIQUE" ;
+    skos:prefLabel "Coupe electrique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-exploitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-EXPLOITATION" ;
+    skos:prefLabel "Coupe exploitation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-foreur> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-FOREUR" ;
+    skos:prefLabel "Coupe foreur"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-geologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-GEOLOGIQUE" ;
+    skos:prefLabel "Coupe geologique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-interpretative> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-INTERPRETATIVE" ;
+    skos:prefLabel "Coupe interpretative"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-sismique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-SISMIQUE" ;
+    skos:prefLabel "Coupe sismique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-technique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-TECHNIQUE" ;
+    skos:prefLabel "Coupe technique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/datation-roche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DATATION-ROCHE" ;
+    skos:prefLabel "Datation roche"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/debit-source> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DEBIT-SOURCE" ;
+    skos:prefLabel "Debit source"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/declaration-code-minier> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DECLARATION-CODE-MINIER" ;
+    skos:prefLabel "Declaration code minier"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/declaration-utilite-publique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DECLARATION-UTILITE-PUBLIQUE" ;
+    skos:prefLabel "Declaration utilite publique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/densite-humide> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DENSITE-HUMIDE" ;
+    skos:prefLabel "Densite humide"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/densite-seche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DENSITE-SECHE" ;
+    skos:prefLabel "Densite seche"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/developpement-ouvrage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DEVELOPPEMENT-OUVRAGE" ;
+    skos:prefLabel "Developpement ouvrage"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/diagraphie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DIAGRAPHIE" ;
+    skos:prefLabel "Diagraphie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/doc-sie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOC-SIE" ;
+    skos:prefLabel "Doc sie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/document-photo> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENT-PHOTO" ;
+    skos:prefLabel "Document photo"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-archeologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-ARCHEOLOGIQUE" ;
+    skos:prefLabel "Documentation archeologique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-generale> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-GENERALE" ;
+    skos:prefLabel "Documentation generale"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-geologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-GEOLOGIQUE" ;
+    skos:prefLabel "Documentation geologique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-geophysique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-GEOPHYSIQUE" ;
+    skos:prefLabel "Documentation geophysique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-geotechnique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-GEOTECHNIQUE" ;
+    skos:prefLabel "Documentation geotechnique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-geothermique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-GEOTHERMIQUE" ;
+    skos:prefLabel "Documentation geothermique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-hydrogeologique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-HYDROGEOLOGIQUE" ;
+    skos:prefLabel "Documentation hydrogeologique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/documentation-sondage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DOCUMENTATION-SONDAGE" ;
+    skos:prefLabel "Documentation sondage"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/donnees-climatologiques> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "DONNEES-CLIMATOLOGIQUES" ;
+    skos:prefLabel "Donnees climatologiques"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/equivalent-sable> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "EQUIVALENT-SABLE" ;
+    skos:prefLabel "Equivalent sable"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essai-boite-r> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAI-BOITE-R" ;
+    skos:prefLabel "Essai boite r"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essai-cohesion> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAI-COHESION" ;
+    skos:prefLabel "Essai cohesion"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essai-compactage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAI-COMPACTAGE" ;
+    skos:prefLabel "Essai compactage"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essai-compression-simple> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAI-COMPRESSION-SIMPLE" ;
+    skos:prefLabel "Essai compression simple"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essai-oedometre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAI-OEDOMETRE" ;
+    skos:prefLabel "Essai oedometre"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essais-divers> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAIS-DIVERS" ;
+    skos:prefLabel "Essais divers"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/essais-techno-ciment> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ESSAIS-TECHNO-CIMENT" ;
+    skos:prefLabel "Essais techno ciment"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/fiche-lithotheque> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "FICHE-LITHOTHEQUE" ;
+    skos:prefLabel "Fiche lithotheque"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/fraction-fine> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "FRACTION-FINE" ;
+    skos:prefLabel "Fraction fine"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/fraction-sableuse> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "FRACTION-SABLEUSE" ;
+    skos:prefLabel "Fraction sableuse"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/gamma-ray> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "GAMMA-RAY" ;
+    skos:prefLabel "Gamma ray"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/granulo-fraction-grenue> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "GRANULO-FRACTION-GRENUE" ;
+    skos:prefLabel "Granulo fraction grenue"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/granulometrie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "GRANULOMETRIE" ;
+    skos:prefLabel "Granulometrie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/hydrochimie-traces> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "HYDROCHIMIE-TRACES" ;
+    skos:prefLabel "Hydrochimie traces"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/interpretation-sondages> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "INTERPRETATION-SONDAGES" ;
+    skos:prefLabel "Interpretation sondages"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/isobathe> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ISOBATHE" ;
+    skos:prefLabel "Isobathe"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/isochrone> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ISOCHRONE" ;
+    skos:prefLabel "Isochrone"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/isohypse> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ISOHYPSE" ;
+    skos:prefLabel "Isohypse"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/isopaque> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "ISOPAQUE" ;
+    skos:prefLabel "Isopaque"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/jaugeage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "JAUGEAGE" ;
+    skos:prefLabel "Jaugeage"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/jaugeage-sporadique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "JAUGEAGE-SPORADIQUE" ;
+    skos:prefLabel "Jaugeage sporadique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/materiel-pompage> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MATERIEL-POMPAGE" ;
+    skos:prefLabel "Materiel pompage"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/mesure-debit-riviere> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MESURE-DEBIT-RIVIERE" ;
+    skos:prefLabel "Mesure debit riviere"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/mesure-deformation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MESURE-DEFORMATION" ;
+    skos:prefLabel "Mesure deformation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/mesure-hauteur-limnigraphique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MESURE-HAUTEUR-LIMNIGRAPHIQUE" ;
+    skos:prefLabel "Mesure hauteur limnigraphique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/mesures-diverses-sol> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MESURES-DIVERSES-SOL" ;
+    skos:prefLabel "Mesures diverses sol"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/micromoulinet> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MICROMOULINET" ;
+    skos:prefLabel "Micromoulinet"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/micropal> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MICROPAL" ;
+    skos:prefLabel "Micropal"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/mineralo> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "MINERALO" ;
+    skos:prefLabel "Mineralo"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/paleontologie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PALEONTOLOGIE" ;
+    skos:prefLabel "Paleontologie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/palynologie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PALYNOLOGIE" ;
+    skos:prefLabel "Palynologie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/parametres-hydrauliques> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PARAMETRES-HYDRAULIQUES" ;
+    skos:prefLabel "Parametres hydrauliques"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/penetro> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PENETRO" ;
+    skos:prefLabel "Penetro"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/penetro-dyn> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PENETRO-DYN" ;
+    skos:prefLabel "Penetro dyn"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/penetro-spt> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PENETRO-SPT" ;
+    skos:prefLabel "Penetro spt"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/penetro-stat> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PENETRO-STAT" ;
+    skos:prefLabel "Penetro stat"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/perimetre-exploitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PERIMETRE-EXPLOITATION" ;
+    skos:prefLabel "Perimetre exploitation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/perimetre-protection> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PERIMETRE-PROTECTION" ;
+    skos:prefLabel "Perimetre protection"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/permeabilite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PERMEABILITE" ;
+    skos:prefLabel "Permeabilite"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/permeabilite-oedometre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PERMEABILITE-OEDOMETRE" ;
+    skos:prefLabel "Permeabilite oedometre"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/permis-recherche> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PERMIS-RECHERCHE" ;
+    skos:prefLabel "Permis recherche"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/petro> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PETRO" ;
+    skos:prefLabel "Petro"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/piezo> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PIEZO" ;
+    skos:prefLabel "Piezo"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/piezo-occasionnelle> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PIEZO-OCCASIONNELLE" ;
+    skos:prefLabel "Piezo occasionnelle"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/plan-exploitation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PLAN-EXPLOITATION" ;
+    skos:prefLabel "Plan exploitation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/plan-occupation-sols> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PLAN-OCCUPATION-SOLS" ;
+    skos:prefLabel "Plan occupation sols"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/plan-position> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PLAN-POSITION" ;
+    skos:prefLabel "Plan position"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/plan-situation> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PLAN-SITUATION" ;
+    skos:prefLabel "Plan situation"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/pollution-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "POLLUTION-EAU" ;
+    skos:prefLabel "Pollution eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/pompage-essai> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "POMPAGE-ESSAI" ;
+    skos:prefLabel "Pompage essai"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/pompage-essai-piezo> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "POMPAGE-ESSAI-PIEZO" ;
+    skos:prefLabel "Pompage essai piezo"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/porosite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "POROSITE" ;
+    skos:prefLabel "Porosite"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/pressiometrie> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PRESSIOMETRIE" ;
+    skos:prefLabel "Pressiometrie"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/production> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PRODUCTION" ;
+    skos:prefLabel "Production"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/productivite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PRODUCTIVITE" ;
+    skos:prefLabel "Productivite"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/profil-geophysique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PROFIL-GEOPHYSIQUE" ;
+    skos:prefLabel "Profil geophysique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/radiochimie-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "RADIOCHIMIE-EAU" ;
+    skos:prefLabel "Radiochimie eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/rapport-geologue-officiel> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "RAPPORT-GEOLOGUE-OFFICIEL" ;
+    skos:prefLabel "Rapport geologue officiel"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/rapport-mise-en-oeuvre> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "RAPPORT-MISE-EN-OEUVRE" ;
+    skos:prefLabel "Rapport mise en oeuvre"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/resistance-traction> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "RESISTANCE-TRACTION" ;
+    skos:prefLabel "Resistance traction"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/resistivite> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "RESISTIVITE" ;
+    skos:prefLabel "Resistivite"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/resistivite-apparente> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "RESISTIVITE-APPARENTE" ;
+    skos:prefLabel "Resistivite apparente"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/sondage-electrique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "SONDAGE-ELECTRIQUE" ;
+    skos:prefLabel "Sondage electrique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/temperature> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TEMPERATURE" ;
+    skos:prefLabel "Temperature"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/temperature-air> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TEMPERATURE-AIR" ;
+    skos:prefLabel "Temperature air"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/temperature-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TEMPERATURE-EAU" ;
+    skos:prefLabel "Temperature eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/teneur-eau> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TENEUR-EAU" ;
+    skos:prefLabel "Teneur eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/test-petrole> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TEST-PETROLE" ;
+    skos:prefLabel "Test petrole"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/test-reponse-thermique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TEST-REPONSE-THERMIQUE" ;
+    skos:prefLabel "Test reponse thermique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/traceur> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "TRACEUR" ;
+    skos:prefLabel "Traceur"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/vitesse-sonique> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "VITESSE-SONIQUE" ;
+    skos:prefLabel "Vitesse sonique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/vitesse-transversale> a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "VITESSE-TRANSVERSALE" ;
+    skos:prefLabel "Vitesse transversale"@fr .
+
+<https://fair.scribis.fr/vocab/document-type> a skos:ConceptScheme ;
+    dcterms:description "Prototype SKOS vocabulary generated from values of lex_documents in the BRGM BSS Loiret export."@en ;
+    dcterms:title "BSS document type vocabulary"@en .
+
