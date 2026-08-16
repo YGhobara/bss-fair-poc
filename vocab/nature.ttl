@@ -5,7 +5,7 @@
     a skos:ConceptScheme ;
     dcterms:title "BSS ouvrage nature vocabulary"@en ;
     dcterms:description
-        "Representation derived from values of the lex_nature field."@en .
+        "Representation derived from values of the lex_nature field in the BRGM BSS Loiret export."@en .
 
 <https://fair.scribis.fr/vocab/nature/forage>
     a skos:Concept ;

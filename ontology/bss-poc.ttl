@@ -8,11 +8,13 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix iadopt: <https://w3id.org/iadopt/ont/> .
 
 <https://fair.scribis.fr/ontology/bss>
     a owl:Ontology ;
-    rdfs:label "BSS FAIR prototype ontology"@en ;
+    rdfs:label "BSS FAIR prototype ontology"@en .
 
 
 # SUBJECT / OBJECT ouvrage
@@ -88,3 +90,62 @@ bsspoc:casingDiameter
     rdfs:range qudt:QuantityValue ;
     rdfs:label "diamètre du tubage"@fr ;
     rdfs:label "casing diameter"@en .
+
+# SUBJECT / OBJECT observation de profondeur d'eau / groundwater depth observation
+bsspoc:GroundwaterDepthObservation
+    a owl:Class ;
+    rdfs:subClassOf sosa:Observation ;
+    rdfs:label "observation de profondeur d'eau"@fr ;
+    rdfs:label "groundwater depth observation"@ena .
+
+# SUBJECT / OBJECT eau souterraine / groundwater
+bsspoc:Groundwater
+    a iadopt:Entity ;
+    rdfs:label "eau souterraine"@fr ;
+    rdfs:label "groundwater"@en .
+
+# SUBJECT / OBJECT surface du sol / ground surface
+bsspoc:GroundSurface
+    a iadopt:Entity ;
+    rdfs:label "surface du sol"@fr ;
+    rdfs:label "ground surface"@en .
+
+# PREDICAT profondeur d'eau / groundwater depth
+bsspoc:groundwaterDepthBelowGround
+    a sosa:Property ;
+    a iadopt:Variable ;
+    rdfs:label "profondeur de l'eau sous le niveau du sol"@fr ;
+
+    iadopt:hasProperty quantitykind:Depth ;
+    iadopt:hasObjectOfInterest bsspoc:Groundwater ;
+    iadopt:hasContextObject bsspoc:GroundSurface .
+
+# PREDICAT type de document disponible / available document type
+bsspoc:hasAvailableDocumentType
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "type de document disponible"@fr ;
+    rdfs:label "available document type"@en ;
+    rdfs:comment
+        "Indicates a category of documentation reported as available for a BSS underground work."@en .
+
+# PREDICAT usage de l'ouvrage / work usage
+bsspoc:hasUsage
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "usage de l'ouvrage"@fr ;
+    rdfs:label "work usage"@en ;
+    rdfs:comment
+        "Associates a BSS underground work with a usage concept derived from the lex_usage vocabulary."@en .
+
+# PREDICAT fonction de l'ouvrage / work function
+bsspoc:hasFunction
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range skos:Concept ;
+    rdfs:label "fonction de l'ouvrage"@fr ;
+    rdfs:label "work function"@en ;
+    rdfs:comment
+        "Associates a BSS underground work with a function concept derived from the lex_fonction vocabulary."@en .

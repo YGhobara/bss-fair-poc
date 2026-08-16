@@ -1,0 +1,54 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://fair.scribis.fr/vocab/function>
+    a skos:ConceptScheme ;
+    dcterms:title "BSS function vocabulary"@en ;
+    dcterms:description
+        "Hierarchical SKOS representation derived from lex_fonction values in the BRGM BSS Loiret export."@en .
+
+<https://fair.scribis.fr/vocab/function/surveillance>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE" ;
+    skos:prefLabel "Surveillance"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function/surveillance/eau>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE/EAU" ;
+    skos:prefLabel "Eau"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/function/surveillance> .
+
+<https://fair.scribis.fr/vocab/function/surveillance/eau/piezometrie>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "SURVEILLANCE/EAU/PIEZOMETRIE" ;
+    skos:prefLabel "Piézométrie"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/function/surveillance/eau> .
+
+<https://fair.scribis.fr/vocab/function/exploitation>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION" ;
+    skos:prefLabel "Exploitation"@fr ;
+    skos:topConceptOf <https://fair.scribis.fr/vocab/function> .
+
+<https://fair.scribis.fr/vocab/function/exploitation/geothermie>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/GEOTHERMIE" ;
+    skos:prefLabel "Géothermie"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/function/exploitation> .
+
+<https://fair.scribis.fr/vocab/function/exploitation/geothermie/tres-basse-energie>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/function> ;
+    skos:notation "EXPLOITATION/GEOTHERMIE/TRES-BASSE-ENERGIE" ;
+    skos:prefLabel "Très basse énergie"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/function/exploitation/geothermie> .

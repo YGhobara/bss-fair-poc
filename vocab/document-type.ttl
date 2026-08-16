@@ -1,0 +1,32 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://fair.scribis.fr/vocab/document-type>
+    a skos:ConceptScheme ;
+    dcterms:title "BSS document type vocabulary"@en ;
+    dcterms:description
+        "SKOS representation derived from values of the lex_documents field in the BRGM BSS Loiret export."@en .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-geologique>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-GEOLOGIQUE" ;
+    skos:prefLabel "Coupe géologique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/coupe-technique>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "COUPE-TECHNIQUE" ;
+    skos:prefLabel "Coupe technique"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/chimie-eau>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "CHIMIE-EAU" ;
+    skos:prefLabel "Chimie de l'eau"@fr .
+
+<https://fair.scribis.fr/vocab/document-type/productivite>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/document-type> ;
+    skos:notation "PRODUCTIVITE" ;
+    skos:prefLabel "Productivité"@fr .

@@ -1,0 +1,38 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://fair.scribis.fr/vocab/usage>
+    a skos:ConceptScheme ;
+    dcterms:title "BSS usage vocabulary"@en ;
+    dcterms:description
+        "Hierarchical SKOS representation derived from lex_usage values in the BRGM BSS Loiret export."@en .
+
+<https://fair.scribis.fr/vocab/usage/eau>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU" ;
+    skos:prefLabel "Eau"@fr .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE" ;
+    skos:prefLabel "Agriculture"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/usage/eau> .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION" ;
+    skos:prefLabel "Irrigation"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/usage/eau/agriculture> .
+
+<https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation/aspersion>
+    a skos:Concept ;
+    skos:inScheme <https://fair.scribis.fr/vocab/usage> ;
+    skos:notation "EAU/AGRICULTURE/IRRIGATION/ASPERSION" ;
+    skos:prefLabel "Aspersion"@fr ;
+    skos:broader
+        <https://fair.scribis.fr/vocab/usage/eau/agriculture/irrigation> .

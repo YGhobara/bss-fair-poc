@@ -2,17 +2,27 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix time: <http://www.w3.org/2006/time#> .
 
+# Instance example of a BSS underground work
 <https://fair.scribis.fr/id/commune/45135>
     a bsspoc:Commune ;
     dcterms:identifier "45135" ;
     rdfs:label "Erceville"@fr .
 
+# Instance example of a BSS underground work geometry
 <https://fair.scribis.fr/id/geometry/BSS000WBFM>
     a sf:Point ;
     geo:asWKT
         "<http://www.opengis.net/def/crs/EPSG/0/2154> POINT(626545 6794411)"^^geo:wktLiteral .
 
+# Instance example of a BSS underground work
 <https://fair.scribis.fr/id/ouvrage/BSS000WBFM>
     a bsspoc:UndergroundWork ;
 
@@ -27,7 +37,42 @@
     rdfs:label "BSS000WBFM" ;
     
     bsspoc:locatedInCommune
-        <https://fair.scribis.fr/id/commune/45135> .
+        <https://fair.scribis.fr/id/commune/45135> ;
 
     geo:hasGeometry
-        <https://fair.scribis.fr/id/geometry/BSS000WBFM> .
+        <https://fair.scribis.fr/id/geometry/BSS000WBFM> ;
+
+    bsspoc:investigationDepth [
+        a qudt:QuantityValue ;
+        qudt:value "45.00"^^xsd:decimal ;
+        qudt:hasUnit unit:M
+    ] ;
+
+    bsspoc:groundElevation [
+        a qudt:QuantityValue ;
+        qudt:value "136"^^xsd:decimal ;
+        qudt:hasUnit unit:M
+    ] ;
+.
+
+
+# Observation instance example
+<https://fair.scribis.fr/id/observation/BSS000WBFM-water-depth>
+    a bsspoc:GroundwaterDepthObservation ;
+
+    sosa:hasFeatureOfInterest
+        <https://fair.scribis.fr/id/ouvrage/BSS000WBFM> ;
+
+    sosa:observedProperty
+        bsspoc:groundwaterDepthBelowGround ;
+
+    sosa:phenomenonTime [
+        a time:Instant ;
+        time:inXSDDate "1966-08-05"^^xsd:date
+    ] ;
+
+    sosa:hasResult [
+        a qudt:QuantityValue ;
+        qudt:value "28.7"^^xsd:decimal ;
+        qudt:hasUnit unit:M
+    ] .
