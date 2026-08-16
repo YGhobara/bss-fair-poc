@@ -7,19 +7,72 @@ services:
 
     container_name: bss-fuseki
 
-    ports:
-      - "3030:3030"
+    expose:
+      - "3030"
 
     volumes:
       - fuseki_data:/fuseki/databases/bss
 
-    # TEMPORARILY writable so we can populate TDB2.
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "curl",
+          "-f",
+          "http://localhost:3030/bss/sparql?query=ASK%20%7B%7D"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+
     command:
       [
-        "--update",
         "--loc=/fuseki/databases/bss",
         "/bss"
       ]
 
+    networks:
+      default:
+      fair_proxy:
+        aliases:
+          - bss-fuseki
+
+
+  ogc-api:
+    build:
+      context: .
+      dockerfile: docker/ogc-api.Dockerfile
+
+    container_name: bss-ogc-api
+
+    depends_on:
+      fuseki:
+        condition: service_healthy
+
+    environment:
+      FUSEKI_SPARQL_URL: "http://fuseki:3030/bss/sparql"
+      PUBLIC_BASE_URL: "https://fair.scribis.fr"
+
+    expose:
+      - "8000"
+
+    restart: unless-stopped
+
+    networks:
+      default:
+      fair_proxy:
+        aliases:
+          - bss-ogc-api
+
+
 volumes:
   fuseki_data:
+
+
+networks:
+  fair_proxy:
+    external: true
+    name: fair_proxy

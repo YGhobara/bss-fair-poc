@@ -49,8 +49,8 @@
         <https://fair.scribis.fr/id/dataset/bss-loiret-rdf> ;
 
     dcat:service
-        <https://fair.scribis.fr/id/service/bss-sparql> .
-
+        <https://fair.scribis.fr/id/service/bss-sparql> ,
+	<https://fair.scribis.fr/id/service/bss-ogc-features> .
 
 #################################################################
 # Semanticized dataset
@@ -97,7 +97,8 @@
         "semantic interoperability"@en ;
 
     dcat:distribution
-        <https://fair.scribis.fr/id/distribution/bss-loiret-sparql> .
+        <https://fair.scribis.fr/id/distribution/bss-loiret-sparql> ,
+	<https://fair.scribis.fr/id/distribution/bss-loiret-ogc-features> .
 
 
 #################################################################
@@ -153,6 +154,51 @@
 
     dcat:endpointURL
         <https://fair.scribis.fr/sparql> ;
+
+    dcat:servesDataset
+        <https://fair.scribis.fr/id/dataset/bss-loiret-rdf> .
+
+#################################################################
+# OGC API Features distribution
+#################################################################
+
+<https://fair.scribis.fr/id/distribution/bss-loiret-ogc-features>
+    a dcat:Distribution ;
+
+    dcterms:title
+        "BSS Loiret via OGC API Features"@en ;
+
+    dcat:accessURL
+        <https://fair.scribis.fr/collections/bss-ouvrages/items> ;
+
+    dcat:accessService
+        <https://fair.scribis.fr/id/service/bss-ogc-features> ;
+
+    dcat:mediaType
+        <http://www.iana.org/assignments/media-types/application/geo+json> .
+
+
+#################################################################
+# OGC API Features service
+#################################################################
+
+<https://fair.scribis.fr/id/service/bss-ogc-features>
+    a dcat:DataService ;
+
+    dcterms:title
+        "BSS FAIR OGC API Features service"@en ;
+
+    dcterms:description
+        "Read-only feature access to the semanticized BSS Loiret dataset through an OGC API Features prototype."@en ;
+
+    dcterms:conformsTo
+        <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
+
+    dcat:endpointURL
+        <https://fair.scribis.fr/> ;
+
+    dcat:endpointDescription
+        <https://fair.scribis.fr/api> ;
 
     dcat:servesDataset
         <https://fair.scribis.fr/id/dataset/bss-loiret-rdf> .

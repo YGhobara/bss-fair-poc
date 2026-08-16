@@ -1,5 +1,5 @@
 from __future__ import annotations
-
+from fastapi.responses import FileResponse
 import os
 import re
 from contextlib import asynccontextmanager
@@ -565,7 +565,13 @@ app.mount(
     name="demo",
 )
 
-
+@app.get("/catalog")
+def catalog():
+    return FileResponse(
+        PROJECT_ROOT / "metadata" / "catalog.ttl",
+        media_type="text/turtle",
+        filename="catalog.ttl",
+    )
 # ---------------------------------------------------------------------------
 # Landing page
 # ---------------------------------------------------------------------------
