@@ -4,12 +4,18 @@
 @prefix owl:    <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 <https://fair.scribis.fr/ontology/bss>
     a owl:Ontology ;
     rdfs:label "BSS FAIR prototype ontology"@en ;
 
+
+# SUBJECT / OBJECT ouvrage
 bsspoc:UndergroundWork
     a owl:Class ;
     rdfs:subClassOf geo:Feature ;
@@ -18,6 +24,7 @@ bsspoc:UndergroundWork
     rdfs:comment
         "A subsurface work or feature represented as an ouvrage in the source BSS export."@en .
 
+# PREDICAT legacy
 bsspoc:legacyIndex
     a owl:DatatypeProperty ;
     rdfs:domain bsspoc:UndergroundWork ;
@@ -25,12 +32,14 @@ bsspoc:legacyIndex
     rdfs:label "ancien indice BSS"@fr ;
     rdfs:comment "Legacy BSS index component retained by the source dataset."@en .
 
+# PREDICAT legacy
 bsspoc:legacyDesignation
     a owl:DatatypeProperty ;
     rdfs:domain bsspoc:UndergroundWork ;
     rdfs:range rdfs:Literal ;
     rdfs:label "ancienne désignation BSS"@fr .
 
+# PREDICAT aNature / hasNature
 bsspoc:hasNature
     a owl:ObjectProperty ;
     rdfs:domain bsspoc:UndergroundWork ;
@@ -40,12 +49,14 @@ bsspoc:hasNature
     rdfs:comment
         "Associates a BSS underground work with its nature."@en .
 
+# SUBJECT / OBJECT Commune
 bsspoc:Commune
     a owl:Class ;
     rdfs:subClassOf geo:Feature ;
     rdfs:label "Commune"@fr ;
     rdfs:label "Municipality"@en .
 
+# PREDICAT situé dans la commune / located in municipality
 bsspoc:locatedInCommune
     a owl:ObjectProperty ;
     rdfs:domain bsspoc:UndergroundWork ;
@@ -53,3 +64,27 @@ bsspoc:locatedInCommune
     rdfs:subPropertyOf geo:sfWithin ;
     rdfs:label "situé dans la commune"@fr ;
     rdfs:label "located in municipality"@en .
+
+# PREDICAT profondeur
+bsspoc:investigationDepth
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range qudt:QuantityValue ;
+    rdfs:label "profondeur d'investigation"@fr ;
+    rdfs:label "investigation depth"@en .
+
+# PREDICAT altitude du sol / ground elevation
+bsspoc:groundElevation
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range qudt:QuantityValue ;
+    rdfs:label "altitude du sol"@fr ;
+    rdfs:label "ground elevation"@en .
+
+# PREDICAT diamètre du tubage / casing diameter
+bsspoc:casingDiameter
+    a owl:ObjectProperty ;
+    rdfs:domain bsspoc:UndergroundWork ;
+    rdfs:range qudt:QuantityValue ;
+    rdfs:label "diamètre du tubage"@fr ;
+    rdfs:label "casing diameter"@en .
