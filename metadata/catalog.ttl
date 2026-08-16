@@ -1,0 +1,158 @@
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+
+#################################################################
+# Publisher / agents
+#################################################################
+
+<https://fair.scribis.fr/id/agent/bss-fair-poc>
+    a foaf:Agent ;
+    foaf:name "BSS FAIR prototype"@en .
+
+<https://fair.scribis.fr/id/agent/brgm>
+    a foaf:Organization ;
+    foaf:name "BRGM"@fr ;
+    foaf:homepage <https://www.brgm.fr/> .
+
+
+#################################################################
+# Spatial coverage
+#################################################################
+
+<https://fair.scribis.fr/id/location/loiret>
+    a dcterms:Location ;
+    dcterms:identifier "45" ;
+    dcterms:title "Loiret"@fr .
+
+
+#################################################################
+# Catalog
+#################################################################
+
+<https://fair.scribis.fr/catalog>
+    a dcat:Catalog ;
+
+    dcterms:title
+        "BSS FAIR prototype catalog"@en ;
+
+    dcterms:description
+        "Prototype catalog exposing a semanticized subset of the BRGM Banque du Sous-Sol for the Loiret department."@en ;
+
+    dcterms:publisher
+        <https://fair.scribis.fr/id/agent/bss-fair-poc> ;
+
+    dcat:dataset
+        <https://fair.scribis.fr/id/dataset/bss-loiret-rdf> ;
+
+    dcat:service
+        <https://fair.scribis.fr/id/service/bss-sparql> .
+
+
+#################################################################
+# Semanticized dataset
+#################################################################
+
+<https://fair.scribis.fr/id/dataset/bss-loiret-rdf>
+    a dcat:Dataset ;
+    a prov:Entity ;
+
+    dcterms:identifier "bss-loiret-rdf" ;
+
+    dcterms:title
+        "BRGM BSS Loiret - semantic RDF prototype"@en ;
+
+    dcterms:description
+        "Semantic RDF representation of 21,700 BSS underground works from the Loiret departmental export. The prototype uses RDF/OWL, SKOS, GeoSPARQL, QUDT, SOSA, I-ADOPT and PROV-O, and is structurally validated with SHACL."@en ;
+
+    dcterms:issued
+        "2026-08-16"^^xsd:date ;
+
+    dcterms:publisher
+        <https://fair.scribis.fr/id/agent/bss-fair-poc> ;
+
+    dcterms:source
+        <https://fair.scribis.fr/id/dataset/bss-loiret-source> ;
+
+    prov:wasDerivedFrom
+        <https://fair.scribis.fr/id/dataset/bss-loiret-source> ;
+
+    dcterms:spatial
+        <https://fair.scribis.fr/id/location/loiret> ;
+
+    dcterms:license
+        <https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf> ;
+
+    dcat:keyword
+        "Banque du Sous-Sol"@fr ,
+        "BSS"@fr ,
+        "géologie"@fr ,
+        "forage"@fr ,
+        "eaux souterraines"@fr ,
+        "FAIR"@en ,
+        "RDF"@en ,
+        "semantic interoperability"@en ;
+
+    dcat:distribution
+        <https://fair.scribis.fr/id/distribution/bss-loiret-sparql> .
+
+
+#################################################################
+# Source BRGM dataset
+#################################################################
+
+<https://fair.scribis.fr/id/dataset/bss-loiret-source>
+    a dcat:Dataset ;
+    a prov:Entity ;
+
+    dcterms:title
+        "BRGM Banque du Sous-Sol — Loiret export"@en ;
+
+    dcterms:publisher
+        <https://fair.scribis.fr/id/agent/brgm> ;
+
+    dcterms:spatial
+        <https://fair.scribis.fr/id/location/loiret> ;
+
+    dcterms:license
+        <https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf> .
+
+
+#################################################################
+# SPARQL distribution
+#################################################################
+
+<https://fair.scribis.fr/id/distribution/bss-loiret-sparql>
+    a dcat:Distribution ;
+
+    dcterms:title
+        "BSS Loiret RDF via SPARQL"@en ;
+
+    dcat:accessURL
+        <https://fair.scribis.fr/sparql> ;
+
+    dcat:accessService
+        <https://fair.scribis.fr/id/service/bss-sparql> .
+
+
+#################################################################
+# SPARQL service
+#################################################################
+
+<https://fair.scribis.fr/id/service/bss-sparql>
+    a dcat:DataService ;
+
+    dcterms:title
+        "BSS FAIR SPARQL service"@en ;
+
+    dcterms:description
+        "Read-only SPARQL query service providing access to the semanticized BSS Loiret dataset."@en ;
+
+    dcat:endpointURL
+        <https://fair.scribis.fr/sparql> ;
+
+    dcat:servesDataset
+        <https://fair.scribis.fr/id/dataset/bss-loiret-rdf> .

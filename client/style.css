@@ -1,0 +1,94 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 24px;
+
+    padding: 14px 22px;
+
+    background: white;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.topbar h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.topbar p {
+    margin: 4px 0 0;
+
+    font-size: 13px;
+
+    color: #666;
+}
+
+#status {
+    white-space: nowrap;
+
+    font-size: 13px;
+
+    color: #555;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 7px 22px;
+
+    background: white;
+
+    border-top: 1px solid #ddd;
+
+    font-size: 11px;
+
+    color: #777;
+}
+
+.popup-title {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.popup-grid {
+    display: grid;
+
+    grid-template-columns: auto auto;
+
+    column-gap: 12px;
+    row-gap: 3px;
+}
+
+.popup-label {
+    color: #666;
+}
